@@ -4,3 +4,11 @@
 *** script for nodemon start.
 *** mongoose.connect is a promising fucntion so we use .then and .catch to catch error.
 *** I was using .catch inside .then which is wrong
+===> Models will contain the models of the user and blogs 
+===> routes contains the routes
+===> controller contains the controller fucntion which will contol the API routing in mongoDB and and expresJS
+   
+    1. we will be creatin a user model=> user.js in model folder
+    2. we will create now some routes => user-routes.js
+    3. make a controller fucntion
+*** use .js while import modules in nodejs
