@@ -1,0 +1,2 @@
+forgot to add the    app.use(express.json())  which cause error while post which was "unable to destructure the name property as it was a json format and I wasn't using to parse it
+in the userSchema on password I use minlenth and required to true but didn't add type and that was causing error and I am not sure of it why
