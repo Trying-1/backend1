@@ -1,4 +1,6 @@
 import express from "express"
+import mongoose from "mongoose"
+mongoose.connect()
 const app=express()
 app.use(express.json())
 app.listen(3000,()=>console.log("listening to port 3000..."))
