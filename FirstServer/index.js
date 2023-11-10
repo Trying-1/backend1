@@ -7,8 +7,10 @@ app.get("/firstRoute",(req,res)=>{
 })
 app.post("/firstRoute",(req,res)=>{
     const {name,email,password}=req.body;
-    console.log(name)
-    console.log(email)
-    console.log(password)
-    res.send(`<h1>${email}</h1>`)
+    const data={
+        "name":name,
+        "email":email,
+        "password":password
+    }
+    res.send(data)
 })
