@@ -12,5 +12,5 @@ app.post("/firstRoute",(req,res)=>{
         "email":email,
         "password":password
     }
-    res.send(data)
+    res.json(data)
 })
